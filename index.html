@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+
+    <html>
+        
+        <!-- head -->
+        <head>
+            <meta charset="utf-8">
+            <title> Accueil - La forge des tots</title>
+            <meta name="content-language" content="fr">
+
+            <!-- css -->
+                <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+                <link rel="stylesheet" href="src/css/main.css"> 
+            <!-- css -->
+        
+            <!-- font -->
+                <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+                <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
+            <!-- font -->
+
+            <!-- meta SEO -->
+                <meta name="description" content="La déscription du site, METTRE DES BONS MOTS CLEFS !!!!">
+                <meta name="keywords" content="Des, mots, qui, decrivent, le, site">
+
+            <!-- meta SEO -->
+
+            <!-- meta RESPONSIVE-->
+                <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
+            <!-- meta RESPONSIVE-->
+
+        </head>
+        <!-- head -->
+         
+        
+        <!-- body -->
+        <body>
+            <!-- header -->
+                <div class="block">
+                    <header class="header">
+                        <nav class="header-menu">
+                            <a href="index.html"> Accueil</a>
+                            <a href="a-propos/a-propos.html"> À Propos</a>
+                            <div class="dropdown is-hoverable">
+                                <div class="dropdown-trigger">
+                                    <span><a href="galerie/galerie.html"> Galerie</a></span>
+                                      <i class="fas fa-angle-down" aria-hidden="true"></i>
+                                    </span>
+                                  </button>
+                                </div>
+                                <div class="dropdown-menu" id="dropdown-menu4" role="menu">
+                                  <div class="dropdown-content">
+                                    <div class="dropdown-item">
+                                      <a href="galerie/mobilier-interieur.html">Mobilier d'interieur</a>
+                                      <a href="galerie/outils.html">Outils</a>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            <a href="restauration/restauration.html"> Restauration</a>
+                            <a href="contact/contact.html"> Contact</a>
+                        </nav>
+                    </header>
+                </div>
+            <!-- header -->
+            
+            <!-- banner -->
+                <div class="block">
+                    <div class="banner">
+                        <img src="src/img/bg.jpg" alt="Un marteau qui frappe du fer chaud" class="banner-image"> <!-- Photo by Hannah Gibbs on Unsplash -->
+                        <div class="banner-content">
+                            <h1 class="title is-1">La Forge des Tots</h1>
+                            <h2 class="subtitle">Bienvenue sur notre site</h2>
+                            <button class="button is-link" id="open_modal">Contactez-nous</button>
+                        </div>
+                    </div>
+                </div>
+            <!-- banner -->
+                <!-- modal -->
+                    <div class="modal" id="modal_to_open">
+                        <div class="modal-background"></div>
+                        <div class="modal-card">
+                            <header class="modal-card-head">
+                                <p class="modal-card-title">Contactez-nous</p>
+                                <button class="delete" aria-label="close" id="close_modal"></button>
+                            </header>
+                            <section class="modal-card-body">
+                                <form>
+                                    <div class="field">
+                                    <label class="label">Votre Nom</label>
+                                    <div class="control">
+                                        <input id="name" class="input" type="text" placeholder="ex. Leblanc"name="name">
+                                    </div>
+                                    </div>
+                                    <div class="field">
+                                    <label class="label">Votre Prénom</label>
+                                    <div class="control">
+                                        <input id="firstname" class="input" type="text" placeholder="ex. Michel" name="firstname">
+                                    </div>
+                                    </div>
+                                    <div class="field">
+                                    <label class="label">Votre Email</label>
+                                    <div class="control">
+                                        <input id="email" class="input" type="text" placeholder="ex. michel.leblanc@gmail.com" name="email">
+                                    </div>
+                                    </div>
+                                    <div class="field">
+                                    <label class="label">Votre Message</label>
+                                    <div class="control">
+                                        <textarea id="message" class="textarea" placeholder="Posez-nous vos questions" name="message"></textarea>
+                                    </div>
+                                    </div>
+                                </form>
+                            </section>
+                            <footer class="modal-card-foot">
+                                <button class="button is_link" id="send_mail">Envoyer !</button>
+                            </footer>
+                        </div>
+                    </div>
+                <!-- modal -->
+            <!-- section a propos -->
+                <div class="block">
+                    <h2 class="subtitle-heading-site">Nos Actualités,</h2>
+                    <div class="container about">
+                        <div class="columns">
+                            <div class="column about-single-element">
+                                <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis semper nunc, et varius nibh. Nulla at mattis nibh. Nam vel dui eu justo viverra laoreet eget quis justo. Pellentesque tristique purus nulla, et varius quam tempor at. Nulla id ullamcorper nisl, eu sollicitudin dui. Donec rutrum, tellus sed fermentum molestie, sapien nulla rhoncus lacus, nec euismod ante diam a lacus. Ut suscipit eu neque vitae laoreet. Nulla facilisi.
+                            </div>
+                            <div class="column about-single-element">
+                                <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis semper nunc, et varius nibh. Nulla at mattis nibh. Nam vel dui eu justo viverra laoreet eget quis justo. Pellentesque tristique purus nulla, et varius quam tempor at. Nulla id ullamcorper nisl, eu sollicitudin dui. Donec rutrum, tellus sed fermentum molestie, sapien nulla rhoncus lacus, nec euismod ante diam a lacus. Ut suscipit eu neque vitae laoreet. Nulla facilisi.
+                                </p>
+                            </div>
+                            <div class="column about-single-element">
+                                <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis semper nunc, et varius nibh. Nulla at mattis nibh. Nam vel dui eu justo viverra laoreet eget quis justo. Pellentesque tristique purus nulla, et varius quam tempor at. Nulla id ullamcorper nisl, eu sollicitudin dui. Donec rutrum, tellus sed fermentum molestie, sapien nulla rhoncus lacus, nec euismod ante diam a lacus. Ut suscipit eu neque vitae laoreet. Nulla facilisi.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <!-- section a propos -->
+            
+            <!-- images -->
+                <div class="block">
+                    <h2 class="subtitle-heading-site">Quelques unes de nos créations,</h2>
+                    <div class="container">
+                        <div class="tile is-ancestor">
+                          <div class="tile is-vertical is-8">
+                            <div class="tile">
+                              <div class="tile is-parent is-vertical">
+                                <article class="tile is-child ">
+                                    <figure class="image is-4by3">
+                                        <img src="https://bulma.io/images/placeholders/640x480.png"> <!-- Mettre une image -->
+                                    </figure>
+                                </article>
+                                <article class="tile is-child ">
+                                    <figure class="image is-4by3">
+                                        <img src="https://bulma.io/images/placeholders/640x480.png"> <!-- Mettre une image -->
+                                    </figure>
+                                </article>
+                                <article class="tile is-child ">
+                                    <figure class="image is-4by3">
+                                        <img src="https://bulma.io/images/placeholders/640x480.png"> <!-- Mettre une image -->
+                                    </figure>
+                                </article>
+                              </div>
+                              <div class="tile is-parent is-vertical">
+                                <article class="tile is-child ">
+                                    <figure class="image is-4by3">
+                                        <img src="https://bulma.io/images/placeholders/640x480.png"> <!-- Mettre une image -->
+                                    </figure>
+                                </article>
+                                <article class="tile is-child ">
+                                    <figure class="image is-4by3">
+                                        <img src="https://bulma.io/images/placeholders/640x480.png"> <!-- Mettre une image -->
+                                    </figure>
+                                </article>
+                                <article class="tile is-child ">
+                                    <figure class="image is-4by3">
+                                        <img src="https://bulma.io/images/placeholders/640x480.png"> <!-- Mettre une image -->
+                                    </figure>
+                                </article>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="tile is-parent is-vertical">
+                            <article class="tile is-child ">
+                                <figure class="image is-4by3">
+                                    <img src="https://bulma.io/images/placeholders/640x480.png"> <!-- Mettre une image -->
+                                </figure>
+                            </article>
+                            <article class="tile is-child ">
+                                <figure class="image is-4by3">
+                                    <img src="https://bulma.io/images/placeholders/640x480.png"> <!-- Mettre une image -->
+                                </figure>
+                            </article>
+                            <article class="tile is-child ">
+                                <figure class="image is-4by3">
+                                    <img src="https://bulma.io/images/placeholders/640x480.png"> <!-- Mettre une image -->
+                                </figure>
+                            </article>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            <!-- images -->
+            
+            <!-- contact -->
+                <div class="block">
+                    <footer class="footer">
+                        <h2 class="heading-site">Contactez-nous</h2>
+                            <div class="footer-contact-form">
+                                <form>
+                                    <div class="field">
+                                    <label class="label">Votre Nom</label>
+                                      <div class="control">
+                                        <input id="name" class="input" type="text" placeholder="ex. Leblanc"name="name">
+                                      </div>
+                                    </div>
+                                    <div class="field">
+                                    <label class="label">Votre Prénom</label>
+                                      <div class="control">
+                                        <input id="firstname" class="input" type="text" placeholder="ex. Michel" name="firstname">
+                                      </div>
+                                    </div>
+                                    <div class="field">
+                                    <label class="label">Votre Email</label>
+                                      <div class="control">
+                                        <input id="email" class="input" type="text" placeholder="ex. michel.leblanc@gmail.com" name="email">
+                                      </div>
+                                    </div>
+                                    <div class="field">
+                                    <label class="label">Votre Message</label>
+                                      <div class="control">
+                                        <textarea id="message" class="textarea" placeholder="Posez-nous vos questions" name="message"></textarea>
+                                      </div>
+                                    </div>
+                                </form>
+                                    <div class="send-button">
+                                        <button class="button is_link" id="send_mail">Envoyer !</button>
+                                    </div>
+                            </div>
+                        <div class="footer-informations">
+                            <p>Rue</p>
+                            <p>Code postal + ville</p>
+                            <p>Numéro de Téléphone</p>
+                            <ul>
+                                <li> <!-- Facebook -->
+                                    <a href="#">Facebook</a>
+                                       <i class="fab fa-facebook-square"></i>
+                                </li>
+                                <li> <!-- Instagram -->
+                                    <a href="#">Instagram</a>
+                                       <i class="fab fa-instagram"></i>
+                                </li>
+                            <a href="#"> CGU </a>
+                            </ul>
+                            
+                        </div>
+                    </footer>
+                </div>       
+            <!-- contact -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+            <script src="src/js/main.js"></script>
+        </body>
+        <!-- body -->
+    </html>

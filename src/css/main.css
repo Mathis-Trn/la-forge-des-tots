@@ -1,0 +1,238 @@
+/*
+GLOBAL
+*/
+.subtitle-heading-site {
+    text-align: center;
+    font-family: "Courgette", cursive;
+    font-size: 1.50rem;
+    padding-bottom: 20px;
+    
+}
+
+/*
+HEADER
+*/
+.header {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    height: 90px;
+    line-height: 90px;
+    background-color: rgba(75, 75, 75, 0.250);
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    letter-spacing: 1px;
+	font-size: 1.7rem;
+    font-family: 'Courgette', cursive;
+}
+
+.header-menu {
+    text-align: center;
+    
+}
+
+.header .header-menu a {
+    margin-right: 15px;
+    color: #FFFFFF;
+    
+}
+
+.header .header-menu a:hover {
+    color: #f56d18;
+    
+}
+.header .header-menu .dropdown-item a{
+    color:black;
+
+}
+.header .header-menu .dropdown-item a:hover {
+    color:orange;
+}
+/*
+RESPONSIVE
+*/
+    /*
+    HEADER
+    */
+    @media screen and (max-width: 700px){
+        .header {
+            font-size: 1.2rem;    
+            height: 70px;
+            line-height: 70px;            
+        }
+    }
+
+    @media screen and (max-width: 520px){
+        .header {
+            font-size: 1rem;    
+            height: 50px;
+            line-height: 50px;            
+        }
+    }
+
+    @media screen and (max-width: 450px){
+        .header {
+            font-size: 0.75rem;    
+            height: 35px;
+            line-height: 35px;            
+        }
+    }
+
+    @media screen and (max-width: 370px){
+        .header {
+            font-size: 0.5rem;    
+            height: 35px;
+            line-height: 35px;            
+        }
+    }
+    /*
+    BANNER TEXT
+    */
+    @media screen and (max-width: 700px){
+        .title.is-1 {
+            font-size: 2rem;    
+            height: 35px;
+            line-height: 35px;            
+        }
+    }
+    @media screen and (max-width: 475px){
+        .title.is-1 {
+            font-size: 1.5rem;    
+            height: 35px;
+            line-height: 35px;            
+        }
+    }
+    @media screen and (max-width: 355px){
+        .title.is-1 {
+            font-size: 1rem;    
+            height: 35px;
+            line-height: 35px;            
+        }
+    }
+    @media screen and (max-width: 700px){
+        .subtitle {
+            font-size: 1rem;    
+            height: 35px;
+            line-height: 35px;            
+        }
+    }
+    @media screen and (max-width: 475px){
+        .subtitle {
+            font-size: 0.75rem;    
+            height: 35px;
+            line-height: 35px;            
+        }
+    }
+    @media screen and (max-width: 355px){
+        .subtitle {
+            font-size: 0.5rem;    
+            height: 35px;
+            line-height: 35px;            
+        }
+    }
+
+/*
+Title and Subtitle
+*/
+.title {
+    color: #FFFFFF;
+    
+}
+
+.subtitle{
+    color: #FFFFFF;
+    
+}
+
+/*
+BANNER
+*/
+
+.banner {
+    margin-top: -25px;
+    padding: 0;
+    background-size: cover;
+    color: #FFFFFF;
+    
+}
+
+.banner .banner-image {
+    position: relative;
+    
+}
+
+.banner .banner-content {
+    position:  absolute;
+    width: 100%;
+    text-align: center;
+    top: 30%;
+    font-family: 'Courgette', cursive;
+}
+
+.banner .banner-content h1 
+.banner .banner-content h2 {
+    color: #ffffff;
+    
+}
+
+    /*
+    BANNER PLACEMENT
+    */
+    @media screen and (max-width: 700px){
+        .banner .banner-content{
+            top: 20%; 
+        }
+    }
+    @media screen and (max-width: 475px){
+        .banner .banner-content{
+            top: 10%; 
+        }
+    }
+    @media screen and (max-width: 355px){
+        .banner .banner-content{
+            top: 5%; 
+        }
+    }
+/*
+ABOUT
+*/
+.about .about-single-element p {
+    text-align: center;
+    margin-top: 20px
+    
+}
+
+/*
+FOOTER
+*/
+.footer .footer-informations {
+    text-align: center;
+    margin-top: 30px;
+    
+}
+
+.footer .footer-informations ul {
+    padding: 0;
+    
+}
+
+.footer .footer-informations ul li {
+    display: inline-block;
+    list-style-type: none;
+    
+}
+
+.send-button{
+    padding-top: 10px;
+
+}
+
+
+/*
+MODAL
+*/
+
+.modal {
+    padding-top: 120px;
+}
